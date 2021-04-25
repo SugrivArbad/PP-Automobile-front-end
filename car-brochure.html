@@ -1,0 +1,54 @@
+<!--
+-->
+<!--
+	*** task 1 ***
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<title>
+			*** car-brochure ***
+		</title>
+
+		<link rel="stylesheet" type="text/css" href="external_style.css">
+
+		<script src="./jquery.min.3.4.1.js"> </script>
+
+		<script src="cars.js"></script>
+
+	</head>
+
+	<body>
+	 <!--body style="background : khaki"-->
+
+		<table id="buttons_table" border=1 height=90 width=1900>
+			<tr>
+				<th bgcolor="cyan"> <button id="prev"> PREV </button> </th>
+				<th bgcolor="cyan"> <button id="next"> NEXT </button> </th>
+			</tr>
+		</table>
+
+
+		<div align="center" id="div1"> 
+		</div>
+
+		<div align="center" id="div2"> 
+		</div>
+
+
+<!--
+	adding <div> by jQuery
+		<script>
+			var div2 = "<div align="center" id='div2'></div>"
+			$("body").append(div2);
+		</script>
+-->
+
+		<script src="prev_next_buttons_oprations.js"></script>
+
+
+	</body>
+</html>

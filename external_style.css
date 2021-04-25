@@ -1,0 +1,30 @@
+/*body::after{
+	font-family : Arial, Sans-serif;	
+	background : url("auto-2179220_1920.jpg");
+	opacity : 0.5
+}
+*/
+
+body::after {
+	content: "";
+	background : url("oldtimer-1197800_1920.jpg");
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+}
+
+table#buttons_table{
+	font-family : Arial,Sans-serif;	
+	width : 1900;
+	height : 90;
+}
+
+table#display{
+	font-family : Monospace serif;	
+	width : 900;
+	height : 90;
+}
